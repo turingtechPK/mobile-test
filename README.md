@@ -1,8 +1,6 @@
 # React Native Hiring Test
 
-The goal is to do a little bit of react native work and show that you can build an UI and work with a REST API. Please make sure to check the general notes at the end.
-
-*Feel free to apply! Drop us a line with your LinkedIn/GitHub/Twitter at hr@turingtechnologies.org.*
+The goal is to check your react native skills, code structure, quality and attention to detail. Please make sure to check the general notes at the end.
 
 ## Task
 
