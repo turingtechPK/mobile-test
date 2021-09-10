@@ -1,58 +1,39 @@
-# Frontend Hiring Test - IP Tracker Application (Intermediate)
+# React Native Hiring Test
 
-This test is a part of our hiring process at TuringTech for the Frontend Engineer position. It should take you between 3 to 5 hours, depending on your experience, to implement the minimal version. But we thought about a few bonuses, so feel free to spend some time on them if you want.
+The goal is to do a little bit of react native work and show that you can build an UI and work with a REST API. Please make sure to check the general notes at the end.
 
 *Feel free to apply! Drop us a line with your LinkedIn/GitHub/Twitter at hr@turingtechnologies.org.*
 
-## Brief
+## Task
 
-Your challenge is to build out this IP Address Tracker app and get it looking as close to the design as possible. To get the IP Address locations, you'll be using the IP Geolocation API by [IPify](https://geo.ipify.org/). To generate the map, we recommend using [LeafletJS](https://leafletjs.com/).
+Pick any subreddit you like. For instance you could pick https://www.reddit.com/r/aww.json. Setup a basic react native app that allows the user to interact with the subreddit as outlined in the user flow below:
 
-The application can be built using any Frontend Framework/Library such as React, Angular, Vue. We do use React on most of our projects, however, Angular and Vue are also used in some of the projects.
+## Userflow
 
-You should try to match the exact design as given in the test resources. Please download the test resources from the link given below.
+### Login View
 
-https://drive.google.com/file/d/1IwkYVru3LBlyNiUaLD9PGQ7odMmE53cT/view?usp=sharing
+- User opens the app and is presented a login form
+- He can log in with an arbitrary username (for sake of simplicity) and the password "password"
+- If credentials are correct, he gets redirected to the second view. Else he gets some notification to check credentials for correctness.
 
-Your users should be able to:
+### Reditt Overview
 
-- View the optimal layout for each page depending on their device's screen size
-- See hover states for all interactive elements on the page
-- See their own IP Address on the map on the initial page load
-- Search for any IP addresses or domains and see the key information and location
+- User sees a view with reddit's logo on top and the username displayed.
+- Underneath will be a list of the puppy pictures.
+- The user can approve/disapprove the individual images by swiping either left or right like tinder. (https://tenor.com/view/timber-server-glue-summer-hunt-wood-swipe-left-gif-17235406)
 
-# Front-end Style Guide
+### Users approve/disapprove list
 
-## Layout
-
-The designs were created to the following widths:
-
-- Mobile: 375px
-- Desktop: 1440px
-
-## Colors
-
-- Very Dark Gray: hsl(0, 0%, 17%)
-- Dark Gray: hsl(0, 0%, 59%)
-
-## Typography
-
-### Body Copy
-
-- Font size (text input): 18px
-
-### Font
-
-- Family: [Rubik](https://fonts.google.com/specimen/Rubik)
-- Weights: 400, 500, 700
+- Users can switch to this view (and back to the previous view).
+- User will see a list of puppy pictures with an indicator showing accepted or rejected.
 
 
-## Bonus
+## General Notes
 
-- Use typescript
-- Error tolerant and rate limiting handling for external APIs
-- Deploy your app on Heroku or Netlify
-
+- Style the components you'll use according to Reddit's UI (https://play.google.com/store/apps/details?id=com.reddit.frontpage&hl=en_US&gl=US)
+- Don't reinvent the wheel: If you know a library that does what you need, use it. Good engineers are also good at stealing ;)
+- If you use a react-native project template to start off please seperate this into an extra commit, so that we can see what you personally did.
+- You don't have to create an app that runs both on iOS and Android. You can pick either one (although being cross-plattform is of course nice).
 
 ## Code Submit
 Please organize, design, test and document your code as if it were going into production and send us a pull request. We will review it and get back to you in order to talk about your code! 
