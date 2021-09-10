@@ -10,19 +10,19 @@ Pick any subreddit you like. For instance you could pick https://www.reddit.com/
 
 ### Login View
 
-- User opens the app and is presented a login form
-- He can log in with an arbitrary username (for sake of simplicity) and the password "password"
-- If credentials are correct, he gets redirected to the second view. Else he gets some notification to check credentials for correctness.
+- User opens the app and is presented with a login form
+- User can log in with an arbitrary username (for sake of simplicity) and the password "password"
+- If credentials are correct, redirect to the second view or else show error message.
 
 ### Reditt Overview
 
 - User sees a view with reddit's logo on top and the username displayed.
-- Underneath will be a list of the puppy pictures.
+- Underneath will be a list of the pictures.
 - The user can approve/disapprove the individual images by swiping either left or right like tinder. (https://tenor.com/view/timber-server-glue-summer-hunt-wood-swipe-left-gif-17235406)
 
 ### Users approve/disapprove list
 
-- Users can switch to this view (and back to the previous view).
+- Users can switch to this view (and back to the previous view). You can make a navbar or a menu.
 - User will see a list of puppy pictures with an indicator showing accepted or rejected.
 
 
@@ -30,8 +30,8 @@ Pick any subreddit you like. For instance you could pick https://www.reddit.com/
 
 - Style the components you'll use according to Reddit's UI (https://play.google.com/store/apps/details?id=com.reddit.frontpage&hl=en_US&gl=US)
 - Don't reinvent the wheel: If you know a library that does what you need, use it. Good engineers are also good at stealing ;)
-- If you use a react-native project template to start off please seperate this into an extra commit, so that we can see what you personally did.
-- You don't have to create an app that runs both on iOS and Android. You can pick either one (although being cross-plattform is of course nice).
+- If you use a react-native project template as boilerplate, please seperate this into an extra commit, so that we can see what you personally did.
+- You don't have to create an app that runs both on iOS and Android. You can pick either one (although being cross-plattform will give you bonus points).
 
 ## Code Submit
 Please organize, design, test and document your code as if it were going into production and send us a pull request. We will review it and get back to you in order to talk about your code! 
