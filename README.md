@@ -1,6 +1,6 @@
-# :phone: TuringTech - Frontend technical test
+# :phone: TuringTech - Mobile Developer Test
 
-This test is a part of our hiring process at TuringTech for the Frontend Engineer position. It should take you between 6 to 8 hours, depending on your experience, to implement the minimal version. But we thought about a few bonuses, so feel free to spend some time on them if you want.
+This test is a part of our hiring process at TuringTech for the Frontend (Mobile) Engineer position. It should take you between 4 to 6 hours, depending on your experience, to implement the minimal version. But we thought about a few bonuses, so feel free to spend some time on them if you want.
 
 *Feel free to apply on our [Careers Page](https://www.turing-tech.org/careers?github=true) and email us at hr@turingtechnologies.org.*
 
@@ -10,9 +10,9 @@ TuringTech is on a mission to revolutionize the business phone industry! This te
 
 ## Exercise
 
-The application can be built using any Frontend Framework/Library such as React, Angular, Vue. We do use React (especially Next.js) on most of our projects.
+The application can be built using any Mobile development technology such as React Native, Swift or Java/Kotlin.
 
-For the purpose of this test, you can use Bootstrap, Material or Ant Design for the base design library. Copy Styling of different components such as buttons, lists, fields etc. from the assets in the `/design-files` folder. 
+For the purpose of this test, you need to use either Native Base (https://nativebase.io/) or Ant Design (https://mobile.ant.design/) for the base design library. Copy Styling of different components such as buttons, lists, fields etc. from the assets in the `/design-files` folder. 
 
 This application must:
 - Display a paginated list of calls that you’ll retrieve from the API.
@@ -22,10 +22,9 @@ This application must:
 - Handle real-time events (Whenever a call is archived or a note is being added to a call, these changes should be reflected on the UI immediately)
 
 Bonus:
-- Use Typescript and Next.js
+- Use Typescript in case of React Native or Kotlin in case of Android.
 - Provide filtering feature, to filter calls by type (archived, missed …)
 - Use GraphQL to fetch data
-- Deploy your application to Netlify, GitHub Pages or Heroku
 
 **Important Note**: We want you to build this small app as you'd have done it for your current job. (UI, UX, tests, documentation matters).
 
