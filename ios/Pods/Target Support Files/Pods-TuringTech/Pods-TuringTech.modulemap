@@ -1,0 +1,6 @@
+module Pods_TuringTech {
+  umbrella header "Pods-TuringTech-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,151 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.turingtech"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="31" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/macbook/Documents/GitHub/TuringTech/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/Users/macbook/Documents/GitHub/TuringTech/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/macbook/Documents/GitHub/TuringTech/android/app/src/main/AndroidManifest.xml:4:5-67
+12-->/Users/macbook/Documents/GitHub/TuringTech/android/app/src/main/AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->[com.facebook.flipper:flipper:0.125.0] /Users/macbook/.gradle/caches/transforms-3/03f04a3f11198ce3b7c6cedb9b41266b/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:5-76
+13-->[com.facebook.flipper:flipper:0.125.0] /Users/macbook/.gradle/caches/transforms-3/03f04a3f11198ce3b7c6cedb9b41266b/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:22-73
+14
+15    <queries>
+15-->[:react-native-image-crop-picker] /Users/macbook/Documents/GitHub/TuringTech/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-13:15
+16        <intent>
+16-->[:react-native-image-crop-picker] /Users/macbook/Documents/GitHub/TuringTech/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-12:18
+17            <action android:name="android.media.action.IMAGE_CAPTURE" />
+17-->[:react-native-image-crop-picker] /Users/macbook/Documents/GitHub/TuringTech/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-73
+17-->[:react-native-image-crop-picker] /Users/macbook/Documents/GitHub/TuringTech/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:21-70
+18        </intent>
+19    </queries>
+20
+21    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+21-->[:react-native-image-crop-picker] /Users/macbook/Documents/GitHub/TuringTech/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:5-81
+21-->[:react-native-image-crop-picker] /Users/macbook/Documents/GitHub/TuringTech/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:22-78
+22
+23    <application
+23-->/Users/macbook/Documents/GitHub/TuringTech/android/app/src/main/AndroidManifest.xml:6:5-25:19
+24        android:name="com.turingtech.MainApplication"
+24-->/Users/macbook/Documents/GitHub/TuringTech/android/app/src/main/AndroidManifest.xml:7:7-38
+25        android:allowBackup="false"
+25-->/Users/macbook/Documents/GitHub/TuringTech/android/app/src/main/AndroidManifest.xml:11:7-34
+26        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+26-->[androidx.core:core:1.7.0] /Users/macbook/.gradle/caches/transforms-3/63a3df243d2d102452600006144a86df/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+27        android:debuggable="true"
+28        android:icon="@mipmap/ic_launcher"
+28-->/Users/macbook/Documents/GitHub/TuringTech/android/app/src/main/AndroidManifest.xml:9:7-41
+29        android:label="@string/app_name"
+29-->/Users/macbook/Documents/GitHub/TuringTech/android/app/src/main/AndroidManifest.xml:8:7-39
+30        android:roundIcon="@mipmap/ic_launcher_round"
+30-->/Users/macbook/Documents/GitHub/TuringTech/android/app/src/main/AndroidManifest.xml:10:7-52
+31        android:theme="@style/AppTheme"
+31-->/Users/macbook/Documents/GitHub/TuringTech/android/app/src/main/AndroidManifest.xml:12:7-38
+32        android:usesCleartextTraffic="true" >
+32-->/Users/macbook/Documents/GitHub/TuringTech/android/app/src/debug/AndroidManifest.xml:8:9-44
+33        <activity
+33-->/Users/macbook/Documents/GitHub/TuringTech/android/app/src/debug/AndroidManifest.xml:11:9-111
+34            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+34-->/Users/macbook/Documents/GitHub/TuringTech/android/app/src/debug/AndroidManifest.xml:11:19-83
+35            android:exported="false" />
+35-->/Users/macbook/Documents/GitHub/TuringTech/android/app/src/debug/AndroidManifest.xml:11:84-108
+36        <activity
+36-->/Users/macbook/Documents/GitHub/TuringTech/android/app/src/main/AndroidManifest.xml:13:7-24:18
+37            android:name="com.turingtech.MainActivity"
+37-->/Users/macbook/Documents/GitHub/TuringTech/android/app/src/main/AndroidManifest.xml:14:9-37
+38            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+38-->/Users/macbook/Documents/GitHub/TuringTech/android/app/src/main/AndroidManifest.xml:16:9-118
+39            android:exported="true"
+39-->/Users/macbook/Documents/GitHub/TuringTech/android/app/src/main/AndroidManifest.xml:19:9-32
+40            android:label="@string/app_name"
+40-->/Users/macbook/Documents/GitHub/TuringTech/android/app/src/main/AndroidManifest.xml:15:9-41
+41            android:launchMode="singleTask"
+41-->/Users/macbook/Documents/GitHub/TuringTech/android/app/src/main/AndroidManifest.xml:17:9-40
+42            android:windowSoftInputMode="adjustResize" >
+42-->/Users/macbook/Documents/GitHub/TuringTech/android/app/src/main/AndroidManifest.xml:18:9-51
+43            <intent-filter>
+43-->/Users/macbook/Documents/GitHub/TuringTech/android/app/src/main/AndroidManifest.xml:20:9-23:25
+44                <action android:name="android.intent.action.MAIN" />
+44-->/Users/macbook/Documents/GitHub/TuringTech/android/app/src/main/AndroidManifest.xml:21:13-65
+44-->/Users/macbook/Documents/GitHub/TuringTech/android/app/src/main/AndroidManifest.xml:21:21-62
+45
+46                <category android:name="android.intent.category.LAUNCHER" />
+46-->/Users/macbook/Documents/GitHub/TuringTech/android/app/src/main/AndroidManifest.xml:22:13-73
+46-->/Users/macbook/Documents/GitHub/TuringTech/android/app/src/main/AndroidManifest.xml:22:23-70
+47            </intent-filter>
+48        </activity>
+49
+50        <provider
+50-->[:react-native-image-crop-picker] /Users/macbook/Documents/GitHub/TuringTech/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:9-26:20
+51            android:name="com.reactnative.ivpusic.imagepicker.IvpusicImagePickerFileProvider"
+51-->[:react-native-image-crop-picker] /Users/macbook/Documents/GitHub/TuringTech/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-94
+52            android:authorities="com.turingtech.provider"
+52-->[:react-native-image-crop-picker] /Users/macbook/Documents/GitHub/TuringTech/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-60
+53            android:exported="false"
+53-->[:react-native-image-crop-picker] /Users/macbook/Documents/GitHub/TuringTech/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-37
+54            android:grantUriPermissions="true" >
+54-->[:react-native-image-crop-picker] /Users/macbook/Documents/GitHub/TuringTech/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-47
+55            <meta-data
+55-->[:react-native-image-crop-picker] /Users/macbook/Documents/GitHub/TuringTech/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-25:78
+56                android:name="android.support.FILE_PROVIDER_PATHS"
+56-->[:react-native-image-crop-picker] /Users/macbook/Documents/GitHub/TuringTech/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:17-67
+57                android:resource="@xml/ivpusic_imagepicker_provider_paths" />
+57-->[:react-native-image-crop-picker] /Users/macbook/Documents/GitHub/TuringTech/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:17-75
+58        </provider>
+59
+60        <activity
+60-->[:react-native-image-crop-picker] /Users/macbook/Documents/GitHub/TuringTech/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:9-30:72
+61            android:name="com.yalantis.ucrop.UCropActivity"
+61-->[:react-native-image-crop-picker] /Users/macbook/Documents/GitHub/TuringTech/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:29:13-60
+62            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+62-->[:react-native-image-crop-picker] /Users/macbook/Documents/GitHub/TuringTech/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:30:13-69
+63
+64        <provider
+64-->[:react-native-webview] /Users/macbook/Documents/GitHub/TuringTech/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-18:20
+65            android:name="com.reactnativecommunity.webview.RNCWebViewFileProvider"
+65-->[:react-native-webview] /Users/macbook/Documents/GitHub/TuringTech/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-83
+66            android:authorities="com.turingtech.fileprovider"
+66-->[:react-native-webview] /Users/macbook/Documents/GitHub/TuringTech/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-64
+67            android:exported="false"
+67-->[:react-native-webview] /Users/macbook/Documents/GitHub/TuringTech/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-37
+68            android:grantUriPermissions="true" >
+68-->[:react-native-webview] /Users/macbook/Documents/GitHub/TuringTech/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-47
+69            <meta-data
+69-->[:react-native-image-crop-picker] /Users/macbook/Documents/GitHub/TuringTech/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-25:78
+70                android:name="android.support.FILE_PROVIDER_PATHS"
+70-->[:react-native-image-crop-picker] /Users/macbook/Documents/GitHub/TuringTech/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:17-67
+71                android:resource="@xml/file_provider_paths" />
+71-->[:react-native-image-crop-picker] /Users/macbook/Documents/GitHub/TuringTech/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:17-75
+72        </provider>
+73        <provider
+73-->[androidx.emoji2:emoji2:1.0.0] /Users/macbook/.gradle/caches/transforms-3/b6fe4da57007a43d86a66ba4c66459bd/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+74            android:name="androidx.startup.InitializationProvider"
+74-->[androidx.emoji2:emoji2:1.0.0] /Users/macbook/.gradle/caches/transforms-3/b6fe4da57007a43d86a66ba4c66459bd/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+75            android:authorities="com.turingtech.androidx-startup"
+75-->[androidx.emoji2:emoji2:1.0.0] /Users/macbook/.gradle/caches/transforms-3/b6fe4da57007a43d86a66ba4c66459bd/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+76            android:exported="false" >
+76-->[androidx.emoji2:emoji2:1.0.0] /Users/macbook/.gradle/caches/transforms-3/b6fe4da57007a43d86a66ba4c66459bd/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+77            <meta-data
+77-->[androidx.emoji2:emoji2:1.0.0] /Users/macbook/.gradle/caches/transforms-3/b6fe4da57007a43d86a66ba4c66459bd/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+78                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+78-->[androidx.emoji2:emoji2:1.0.0] /Users/macbook/.gradle/caches/transforms-3/b6fe4da57007a43d86a66ba4c66459bd/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+79                android:value="androidx.startup" />
+79-->[androidx.emoji2:emoji2:1.0.0] /Users/macbook/.gradle/caches/transforms-3/b6fe4da57007a43d86a66ba4c66459bd/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+80            <meta-data
+80-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/macbook/.gradle/caches/transforms-3/bc74a39e1ea23fea00bfcf2682a93948/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+81                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+81-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/macbook/.gradle/caches/transforms-3/bc74a39e1ea23fea00bfcf2682a93948/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+82                android:value="androidx.startup" />
+82-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/macbook/.gradle/caches/transforms-3/bc74a39e1ea23fea00bfcf2682a93948/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+83        </provider>
+84    </application>
+85
+86</manifest>
